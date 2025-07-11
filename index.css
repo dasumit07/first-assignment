@@ -110,7 +110,7 @@
         font-size: 38px;
         font-weight: bold;
         color: #252432;
-       margin: 50px 150px 0 90px;
+       margin: 50px 200px 0 20px;
        text-align: center;
        padding: 50px 20px;
        
@@ -119,7 +119,7 @@
         width: 856px;
        display: flex;
         justify-content: space-between;
-        margin: 0 120px;
+        margin: 0 50px;
     }
     .users-data{
         font-size: 80px;
@@ -132,4 +132,58 @@
         font-size: 20px;
         color: rgba(0, 0, 0, 0.5);
         margin: 0 ;
+    }
+    /* get-in-touch stylee */
+    .get-in-touch{
+        max-width: 1140px;
+        height: 632px;
+        display: flex;
+        margin: 90px 180px;
+        gap: 100px;
+    }
+    .get-in-touch-title{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    footer input[type="text"]{
+        width: 497px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        font-size: 15px;
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+    footer input[type="email"]{
+        width: 497px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        font-size: 15px;
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+    footer textarea{
+        width: 497px;
+        height: 135px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        font-size: 15px;
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+    .footer-button{
+         width: 550px;
+        height: 62px;
+        background-color: #4E47FF;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        
+    }
+    label{
+        font-size: 20px;
+        font-weight: 600;
     }
