@@ -40,6 +40,9 @@
     border: none;
     border-radius: 10px;
     }
+  .navbar-sign-up:hover{
+    background-color: rgb(122, 122, 51);}
+    
   /* banner stylee */
     .banner{
         max-width: 905px;
@@ -64,6 +67,9 @@
         border-radius: 10px;
         margin: 37px 340px 0 340px;
     }
+   .banner-button:hover{
+    background-color: rgb(122, 122, 51);}
+
   /* action--style */
     .action{
         max-width: 1140px;
@@ -91,6 +97,9 @@
         border: none;
         border-radius: 10px;
     }
+    .action-button:hover{
+    background-color: rgb(122, 122, 51);}
+
     .action-img{
         width: 403px;
         height: 328px;
@@ -182,7 +191,10 @@
         border: none;
         border-radius: 10px;
         
-    }
+        }
+ .footer-button:hover{
+    background-color: rgb(122, 122, 51);
+ }
     label{
         font-size: 20px;
         font-weight: 600;
