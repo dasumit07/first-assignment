@@ -145,7 +145,7 @@
         font-size: 80px;
         font-weight: bold;
     }
-    footer input[type="text"]{
+    input[type="text"]{
         width: 497px;
         height: 50px;
         border-radius: 10px;
@@ -154,7 +154,7 @@
         padding: 0 20px;
         margin: 20px 0;
     }
-    footer input[type="email"]{
+    input[type="email"]{
         width: 497px;
         height: 50px;
         border-radius: 10px;
@@ -163,7 +163,7 @@
         padding: 0 20px;
         margin: 20px 0;
     }
-    footer textarea{
+    textarea{
         width: 497px;
         height: 135px;
         border-radius: 10px;
@@ -187,3 +187,37 @@
         font-size: 20px;
         font-weight: 600;
     }
+    /* footerr stylee */
+    .footerr{
+        max-width: 531px;
+        height: 221px;
+        margin: 100px 450px;
+
+    }
+    .footer-logo{
+        width: 291px;
+        height: 121px;
+        font-size: 100px;
+        font-weight: 900px;
+        color: #4E47FF;
+        margin: 0 50px;
+        margin-bottom: 10px;
+    }
+    .footer-subtitle{
+        color: #8987A1;
+        margin: 0 0 0 40px;
+    }
+    .footer-link{
+        display: flex;
+        justify-content: space-between;
+       
+        }
+        ul li{
+            list-style: none;
+        }
+        li a{
+            text-decoration: none;
+        }
+        .light{
+            color: #8987A1;
+        }
