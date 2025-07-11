@@ -64,4 +64,35 @@
         border-radius: 10px;
         margin: 37px 340px 0 340px;
     }
-  
+  /* action--style */
+    .action{
+        max-width: 1140px;
+        height: 338px;
+        margin: 120px 150px;
+        display: flex;justify-content: space-between;
+        gap: 220px;
+    }
+    .action-title{
+        font-weight: bold;
+        font-size: 42px;
+        color: #252432;
+    }
+    .action-subtitle{
+        font-size: 26px;
+        color: rgba(37, 36, 50, 0.5);
+    }
+    .action-button{
+         width: 229px;
+        height: 48px;
+        background-color: #4E47FF;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+    }
+    .action-img{
+        width: 403px;
+        height: 328px;
+        border-radius: 48px;
+    }
